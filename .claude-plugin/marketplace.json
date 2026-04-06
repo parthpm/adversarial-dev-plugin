@@ -1,0 +1,15 @@
+{
+  "name": "parthpm-adversarial-dev",
+  "owner": { "name": "Parth Maheshwari" },
+  "metadata": {
+    "description": "Adversarial development workflows powered by cross-model Codex review.",
+    "version": "1.0.0"
+  },
+  "plugins": [{
+    "name": "adversarial-dev",
+    "description": "Plan and build features with Codex adversarial review at every step.",
+    "version": "1.0.0",
+    "author": { "name": "Parth Maheshwari" },
+    "source": "./plugins/adversarial-dev"
+  }]
+}
