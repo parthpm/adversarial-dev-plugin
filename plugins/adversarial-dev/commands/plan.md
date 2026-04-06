@@ -1,5 +1,4 @@
 ---
-name: plan
 description: Plan a change with codebase exploration, Codex adversarial review, and simplification pass
 argument-hint: "<task description>"
 disable-model-invocation: true
