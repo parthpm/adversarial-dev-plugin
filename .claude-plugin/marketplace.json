@@ -10,6 +10,6 @@
     "description": "Plan and build features with Codex adversarial review at every step.",
     "version": "1.0.1",
     "author": { "name": "Parth Maheshwari" },
-    "source": "."
+    "source": "./"
   }]
 }
