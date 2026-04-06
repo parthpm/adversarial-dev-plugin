@@ -1,6 +1,4 @@
 ---
-name: build
-model: sonnet
 description: Implement changes with full tests and Codex adversarial review
 argument-hint: "<task description or plan reference (optional)>"
 disable-model-invocation: true
