@@ -40,7 +40,7 @@ The plan phase produces a file. The build phase consumes it. Both phases are ind
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI
 - [Codex CLI](https://github.com/openai/codex) — `npm install -g @openai/codex`
 - [Codex plugin for Claude Code](https://github.com/openai/codex-plugin-cc)
-- Node.js 18.18+
+- Node.js 22+
 - OpenAI account with Codex access
 
 ## Installation
