@@ -52,6 +52,7 @@ The plan phase produces a file. The build phase consumes it. Both phases are ind
 ```
 /plugin marketplace add parthpm/codex-plugin-cc
 /plugin install codex@openai-codex
+/reload-plugins
 /codex:setup
 ```
 
@@ -60,11 +61,6 @@ The plan phase produces a file. The build phase consumes it. Both phases are ind
 ```
 /plugin marketplace add parthpm/adversarial-dev-plugin
 /plugin install adversarial-dev@parthpm-adversarial-dev
-```
-
-### Step 3: Reload
-
-```
 /reload-plugins
 ```
 
