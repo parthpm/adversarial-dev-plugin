@@ -2,6 +2,7 @@
 description: Plan a change with codebase exploration, Codex adversarial review, and simplification pass
 argument-hint: "<task description>"
 disable-model-invocation: true
+allowed-tools: Read, Write, Edit, Glob, Grep, Bash(git:*), Agent, Skill(codex:setup), Skill(codex:adversarial-review), AskUserQuestion
 ---
 
 Plan the following change with codebase exploration and adversarial pressure-testing. No code edits — planning only.
