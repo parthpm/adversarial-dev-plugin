@@ -2,6 +2,7 @@
 description: Implement changes with full tests and Codex adversarial review
 argument-hint: "<task description or plan reference (optional)>"
 disable-model-invocation: true
+allowed-tools: Read, Write, Edit, Glob, Grep, Bash, Agent, Skill(codex:setup), Skill(codex:adversarial-review), AskUserQuestion
 ---
 
 Implement the requested changes, verify with tests, and pressure-test with Codex adversarial review.
