@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.3] - 2026-04-12
+
+### Fixed
+- Removed `name:` field from commands so the plugin namespace applies correctly — commands now surface as `/adversarial-dev:plan` and `/adversarial-dev:build` (#5)
+- Added `allowed-tools` to workflows to prevent mid-workflow permission prompts (#6)
+- Reduced wasted review rounds caused by stateless Codex context and blind compliance with reviewer suggestions (#8)
+
+### Changed
+- Streamlined plan and build workflows; tightened allowed-tools list (#7)
+
 ## [1.0.2] - 2026-04-07
 
 ### Fixed
