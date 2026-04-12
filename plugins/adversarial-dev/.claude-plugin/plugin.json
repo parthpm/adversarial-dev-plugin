@@ -1,6 +1,6 @@
 {
   "name": "adversarial-dev",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plan and build features with Codex adversarial review at every step. Two workflows: /adversarial-dev:plan for read-only planning, /adversarial-dev:build for implementation with testing.",
   "author": { "name": "Parth Maheshwari" },
   "homepage": "https://github.com/parthpm/adversarial-dev-plugin",
