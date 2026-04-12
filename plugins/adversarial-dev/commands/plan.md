@@ -62,7 +62,11 @@ If it fails for any other reason, stop and suggest `/codex:setup` to diagnose. T
 
 ### 4. Iterate
 
-If the adversarial review finds real issues, redesign the affected section — don't just patch the text. Run `/codex:adversarial-review --wait` again on the revised plan. Repeat until clean.
+Each Codex review starts fresh with no memory of prior rounds. Maintain a `## Review Log` at the bottom of the plan file — what was flagged, what changed, what was kept and why. Codex reads the plan, so it sees this naturally.
+
+Evaluate each finding before acting on it — not every finding warrants a change.
+
+Re-run step 3 after meaningful changes. Done when a round surfaces nothing new, or nothing you can't reasonably justify keeping.
 
 ### 5. Simplify
 
@@ -71,7 +75,7 @@ Before presenting, review the approved plan for unnecessary complexity:
 - Can any special-case branches be folded into the general case?
 - Is any step doing work that another step already does?
 
-If you simplify, update the plan and run `/codex:adversarial-review --wait` again to verify.
+If you simplify, update the plan (including the review log) and run another review round.
 
 ### 6. Present
 

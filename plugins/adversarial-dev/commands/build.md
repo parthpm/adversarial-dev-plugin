@@ -66,7 +66,11 @@ If it fails for any other reason, stop and warn the user that changes are unrevi
 
 ### 5. Iterate
 
-If the adversarial review finds real issues, fix them, re-run the full test suite, and run `/codex:adversarial-review --wait` again. Repeat until clean.
+Each Codex review starts fresh — the evolving diff is its primary context. If a plan file exists, maintain a `## Review Log` there with what was flagged, fixed, and kept with reasons.
+
+Evaluate each finding before acting on it — not every finding warrants a change.
+
+Re-run step 4 after meaningful changes. Done when a round surfaces nothing new, or nothing you can't reasonably justify keeping.
 
 ### 6. Report
 
